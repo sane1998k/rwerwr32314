@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activities.logistician.Logistician">
+    <Button
+        android:id="@+id/bt_logistician_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/exit"
+        android:textColor="@color/my_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="end"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_logistician_exit">
+
+        <TextView
+            android:id="@+id/tv_logistician_drive_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:hint="@string/string_name_driver"
+            android:textAlignment="textStart"
+            android:textSize="22sp"
+            android:layout_marginBottom="5dp"
+            app:drawableEndCompat="@drawable/ic_arrow" />
+
+        <TextView
+            android:id="@+id/tv_logistician_car_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:hint="@string/string_car_name"
+            android:textAlignment="textStart"
+            android:textSize="22sp"
+            android:layout_marginBottom="5dp"
+            app:drawableEndCompat="@drawable/ic_arrow" />
+
+        <Button
+            android:id="@+id/bt_logistician_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/my_blue"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Отправить" />
+
+        <Button
+            android:id="@+id/bt_logistician_reloading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Повторить"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_reload_rv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_reload" />
+
+        <ProgressBar
+            android:id="@+id/pb_logistician_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_logistician_order"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">935569682359-vv0082dmrla33eds5tp3bl9j78kr4drs.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">935569682359</string>
+    <string name="google_api_key" translatable="false">AIzaSyCvV6_OUMVe6z14x2sXfUGw8nInad2zwc0</string>
+    <string name="google_app_id" translatable="false">1:935569682359:android:4ff06ff9a1ee0f2b578232</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCvV6_OUMVe6z14x2sXfUGw8nInad2zwc0</string>
+    <string name="google_storage_bucket" translatable="false">kazan-manager.appspot.com</string>
+    <string name="project_id" translatable="false">kazan-manager</string>
+</resources>

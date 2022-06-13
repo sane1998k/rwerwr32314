@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ТРС\nКазань</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="title_activity_logged">Logged</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="welcome_text">Добро Пожаловать,</string>
+    <string name="enter_text">Войдите в свой личный аккаунт</string>
+    <string name="remember">Запомнить</string>
+    <string name="exit">Выйти</string>
+    <string name="tv_setting_text">Настройки</string>
+    <string name="et_setting_text">IP адрес</string>
+    <string name="bt_save_text">Сохранить</string>
+    <string name="ip_address_text">https://trsavtomatika.ru</string>
+    <string name="text_type_of_balloon">Тип баллона</string>
+    <string name="text_of_description_the_searchable">Выберите</string>
+    <string name="text_et_search_of_list">Поиск...</string>
+    <string name="text_tv_type_of_firm">Фирма</string>
+    <string name="text_sum_of_balloons">Кол-во баллонов</string>
+    <string name="text_bt_create_order">Создать заказ</string>
+    <string name="text_bt_reload_dialog">Повторить</string>
+    <string name="string_name_driver">Имя водителя</string>
+    <string name="string_car_name">Машина</string>
+
+    <!-- Items of QR status -->
+    <string name="text_status_qr_item_1">Обычный</string>
+    <string name="text_status_qr_item_2">Узнать подробнее</string>
+    <string name="text_balloon">Баллон</string>
+    <string name="text_desctiption_of_balloon">Сведенья скнированного баллона</string>
+    <string name="text_enable">Включить</string>
+    <string name="text_count_balloons">%d/%d</string>
+    <string name="text_collector_menu_item_1">Собрать заказ</string>
+    <string name="text_collector_menu_item_2">Вернуть заказ</string>
+
+    <!-- Dialog Strings -->
+    <string name="text_title_dialog">Вы уверенны?</string>
+    <string name="text_message_dialog">Последующие действие приведёт к удалению баллона из заказа!</string>
+    <string name="text_yes_dialog">Да</string>
+    <string name="text_no_dialog">Нет</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Array spinner Strings -->
+    <string-array name="spinner_states">
+        <item><font fgcolor='#c9c9c9'>Автоматический</font></item>
+        <item><font fgcolor='#c9c9c9'>Ручной</font></item>
+    </string-array>
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint_4"
+    tools:context=".activities.driver.Driver2">
+
+    <ImageButton
+        android:id="@+id/back_to_drive1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_name_balloon_4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя Баллона"
+
+        android:visibility="gone"
+        app:boxStrokeColor="@color/my_blue"
+        app:counterOverflowTextColor="@color/my_blue"
+
+        app:counterTextColor="@color/my_blue"
+        app:endIconDrawable="@drawable/ic_baseline_arrow_forward_24"
+        app:endIconMode="custom"
+        app:helperTextTextColor="#FF0000"
+        app:hintTextColor="@color/my_blue"
+        app:layout_constraintBottom_toTopOf="@+id/tv_collector_result_txt5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:placeholderTextColor="@color/my_blue">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_name_balloon_4_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/robotoregular"
+            android:inputType="textPersonName"
+            android:isScrollContainer="true"
+            android:minHeight="48dp"
+            android:text=""
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spinner_state_4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#151515"
+        android:popupBackground = "#4E4E4E"
+        app:layout_constraintBottom_toTopOf="@+id/bt_collector_scan_enable5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt_collector_scan_enable5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:text="@string/text_enable"
+        android:textColor="@color/my_blue"
+        app:layout_constraintBottom_toTopOf="@+id/collector_scanner5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tv_collector_count5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_collector_result_txt5" />
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/collector_scanner5"
+        android:layout_width="match_parent"
+        android:layout_height="284dp"
+        android:layout_marginTop="152dp"
+        app:autoFocusButtonColor="@android:color/white"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@android:color/white"
+        app:flashButtonVisible="true"
+        app:frameAspectRatioHeight="1"
+        app:frameAspectRatioWidth="1"
+        app:frameColor="@android:color/white"
+        app:frameCornersRadius="0dp"
+        app:frameCornersSize="50dp"
+        app:frameSize="0.75"
+        app:frameThickness="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maskColor="#77000000" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_collector_balloons5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/bt_collector_collected5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_collector_count5"
+        app:layout_constraintVertical_bias="1.0">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_collector_result_txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="456dp"
+        android:text="Результат"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ed_collector_new_order5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint=""
+        android:padding="4dp"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collector_scanner5" />
+
+    <ProgressBar
+        android:id="@+id/pb_load_collector5"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/rv_collector_balloons5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_collector_result_txt5"
+        app:layout_constraintTop_toTopOf="@+id/ed_collector_new_order5"
+        app:layout_constraintVertical_bias="0.589"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt_reload_driver2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Обновить"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/rv_collector_balloons5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_collector_result_txt5"
+        app:layout_constraintTop_toBottomOf="@+id/ed_collector_new_order5" />
+
+    <Button
+        android:id="@+id/bt_collector_collected5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/my_blue"
+        android:textColor="@color/white"
+        android:text="Завершить"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

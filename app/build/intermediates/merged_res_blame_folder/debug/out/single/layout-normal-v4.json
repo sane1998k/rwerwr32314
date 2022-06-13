@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\manager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-normal-v4\\activity_driver1.xml",
+        "source": "D:\\manager-master\\app\\src\\main\\res\\layout-normal\\activity_driver1.xml"
+    },
+    {
+        "merged": "D:\\manager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-normal-v4\\activity_collector.xml",
+        "source": "D:\\manager-master\\app\\src\\main\\res\\layout-normal\\activity_collector.xml"
+    },
+    {
+        "merged": "D:\\manager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-normal-v4\\fragment_collector_1.xml",
+        "source": "D:\\manager-master\\app\\src\\main\\res\\layout-normal\\fragment_collector_1.xml"
+    },
+    {
+        "merged": "D:\\manager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-normal-v4\\activity_driver2.xml",
+        "source": "D:\\manager-master\\app\\src\\main\\res\\layout-normal\\activity_driver2.xml"
+    },
+    {
+        "merged": "D:\\manager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-normal-v4\\fragment_collector_2.xml",
+        "source": "D:\\manager-master\\app\\src\\main\\res\\layout-normal\\fragment_collector_2.xml"
+    }
+]

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/manager-master/app/src/main/res/drawable/background_gradient.xml" value="0.196" />
+        <entry key="..\:/manager-master/app/src/main/res/drawable/dialog_bg.xml" value="0.2685" />
+        <entry key="..\:/manager-master/app/src/main/res/drawable/ic_arrow.xml" value="0.2685" />
+        <entry key="..\:/manager-master/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2635" />
+        <entry key="..\:/manager-master/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.2685" />
+        <entry key="..\:/manager-master/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2635" />
+        <entry key="..\:/manager-master/app/src/main/res/drawable/ic_delete.xml" value="0.2675" />
+        <entry key="..\:/manager-master/app/src/main/res/drawable/splash_screen.xml" value="0.17" />
+        <entry key="..\:/manager-master/app/src/main/res/drawable/sum_dialog.xml" value="0.2695" />
+        <entry key="..\:/manager-master/app/src/main/res/layout-normal/activity_collector.xml" value="0.22" />
+        <entry key="..\:/manager-master/app/src/main/res/layout-normal/activity_driver1.xml" value="0.15391192817443353" />
+        <entry key="..\:/manager-master/app/src/main/res/layout-normal/activity_driver2.xml" value="0.2" />
+        <entry key="..\:/manager-master/app/src/main/res/layout-normal/fragment_collector_1.xml" value="0.16" />
+        <entry key="..\:/manager-master/app/src/main/res/layout-normal/fragment_collector_2.xml" value="0.15391192817443353" />
+        <entry key="..\:/manager-master/app/src/main/res/layout-small/fragment_collector_1.xml" value="0.33" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/activity_collector.xml" value="0.33" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/activity_creater.xml" value="0.3482789855072464" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/activity_driver.xml" value="0.3496376811594203" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/activity_driver1.xml" value="0.25" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/activity_driver2.xml" value="0.3496376811594203" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/activity_login.xml" value="0.25104166666666666" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/activity_logistician.xml" value="0.3482789855072464" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/activity_result_driver.xml" value="0.3496376811594203" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/dialog_driver_order.xml" value="0.35778985507246375" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/dialog_info.xml" value="0.3482789855072464" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/dialog_searchable.xml" value="0.3482789855072464" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/fragment_collector_1.xml" value="0.25" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/fragment_collector_2.xml" value="0.16" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/num_dialog.xml" value="0.3496376811594203" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/popup_background.xml" value="0.3482789855072464" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/recycler_item.xml" value="0.3009833262077811" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/recycler_item_qr.xml" value="0.3009833262077811" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/return_item_balloons.xml" value="0.35778985507246375" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/return_item_balloons2.xml" value="0.3491847826086957" />
+        <entry key="..\:/manager-master/app/src/main/res/layout/rv_logistician_order_item.xml" value="0.3009833262077811" />
+        <entry key="..\:/manager-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2565" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

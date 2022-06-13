@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_status_qr_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_status_qr_adapter_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_horizontal"
+            android:layout_margin="10dp"
+            android:textColor="#680000"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+    <!--Text View over Card View-->
+
+
+</androidx.cardview.widget.CardView>
