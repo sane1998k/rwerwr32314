@@ -8,35 +8,33 @@
     tools:context=".activities.collector.Collector">
 
 
-
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/container_collector">
 
         <Button
             android:id="@+id/bt_frame_order"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#2680FF"
-            android:textColor="@color/white"
             android:layout_weight="1"
-            android:text="@string/text_collector_menu_item_1" />
+            android:background="#2680FF"
+            android:text="@string/text_collector_menu_item_1"
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/bt_frame_return"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#63A2FB"
-            android:textColor="@color/white"
             android:layout_weight="1"
-            android:text="@string/text_collector_menu_item_2" />
-
-
+            android:background="#63A2FB"
+            android:text="@string/text_collector_menu_item_2"
+            android:textColor="@color/white" />
 
 
     </LinearLayout>
@@ -47,7 +45,7 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/llCollectorTop">
 
@@ -58,14 +56,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
         <Space
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
-        </Space>
+            android:layout_weight="1"></Space>
+
         <ImageButton
             android:id="@+id/bt_collector_exit"
             android:layout_width="wrap_content"
